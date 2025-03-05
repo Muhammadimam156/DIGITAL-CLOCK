@@ -1,4 +1,6 @@
-## DIGITAL CLOCK
+## WORLD-CLOCK
+
+
 
 ## Overview
 This is a **World Clock** project that displays both an **analog** and **digital clock**, allowing users to select different time zones. The clock updates in real-time and provides an elegant, professional look.
@@ -36,7 +38,7 @@ The following time zones are supported:
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/digital-clock.git
+   git clone https://github.com/your-username/WORLD-CLOCK.git
    ```
 2. Open `index.html` in your browser.
 

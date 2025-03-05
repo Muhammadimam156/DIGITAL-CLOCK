@@ -38,7 +38,7 @@ The following time zones are supported:
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/WORLD-CLOCK.git
+https://github.com/Muhammadimam156/WORLD-CLOCK.git
    ```
 2. Open `index.html` in your browser.
 

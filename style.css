@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1E1E1E, #3A3A3A);
+}
+.timezone-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.timezone-label {
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.timezone-selector {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    background: #222;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.timezone-selector:hover {
+    background: #444;
+    border-color: #bbb;
+}
+.clock-container {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #F0F0F0, #D1D1D1);
+    border: 10px solid #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.8), inset 0px 5px 10px rgba(255, 255, 255, 0.3);
+}
+.clock-numbers {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.clock-numbers span {
+    position: absolute;
+    color: #111;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    transform: translate(-50%, -50%);
+}
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%) rotate(0deg);
+    border-radius: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+.hour {
+    width: 10px;
+    height: 70px;
+    background: #222;
+    border-radius: 4px;
+}
+.minute {
+    width: 6px;
+    height: 100px;
+    background: #555;
+    border-radius: 3px;
+}
+.second {
+    width: 2px;
+    height: 120px;
+    background: #E74C3C;
+    border-radius: 2px;
+}
+.clock-center {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #000;
+    border-radius: 50%;
+    z-index: 10;
+    border: 3px solid #EEE;
+}
+.digital-clock {
+    margin-top: 25px;
+    font-size: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}

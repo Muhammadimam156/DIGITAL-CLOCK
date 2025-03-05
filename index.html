@@ -1,0 +1,44 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timezone-container">
+        <div class="timezone-label">Select Time Zone:</div>
+        <select class="timezone-selector" id="timezone">
+            <option value="Asia/Karachi">Pakistan</option>
+            <option value="America/New_York">New York</option>
+            <option value="Europe/London">London</option>
+            <option value="Asia/Tokyo">Tokyo</option>
+            <option value="Australia/Sydney">Sydney</option>
+            <option value="Asia/Dubai">Dubai</option>
+            <option value="Europe/Berlin">Berlin</option>
+            <option value="Europe/Moscow">Moscow</option>
+            <option value="Asia/Shanghai">Beijing</option>
+            <option value="Europe/Paris">Paris</option>
+            <option value="America/Los_Angeles">Los Angeles</option>
+        </select>
+    </div>
+    <div class="container">
+        <div class="clock-container">
+            <div class="clock-numbers">
+                <span style="top: 5%; left: 50%;">12</span>
+                <span style="top: 50%; left: 95%;">3</span>
+                <span style="top: 90%; left: 50%;">6</span>
+                <span style="top: 50%; left: 5%;">9</span>
+            </div>
+            <div class="hand hour" id="hour"></div>
+            <div class="hand minute" id="minute"></div>
+            <div class="hand second" id="second"></div>
+            <div class="clock-center"></div>
+        </div>
+        <div class="digital-clock" id="digital-clock"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
